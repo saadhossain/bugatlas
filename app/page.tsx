@@ -1,8 +1,9 @@
+import React from 'react'
 
-export default function Home() {
+const Dashboard = () => {
   return (
-    <div>
-      <h1>Hom Page</h1>
-    </div>
+    <div className='max-w-7xl mx-auto'>Dashboard</div>
   )
 }
+
+export default Dashboard
